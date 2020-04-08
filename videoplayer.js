@@ -86,7 +86,7 @@ window.onload= function(){
     main_title.innerHTML=titlevideos[0];
     main_des.innerHTML=desvideos[0];
 
-    player_source.setAttribute('src', "/video/"+videourls[0]+".mp4");
+    player_source.setAttribute('src', "video/"+videourls[0]+".mp4");
 
     player.load();
 
@@ -140,7 +140,7 @@ function createvideo(title,description,tumburl){
 
 }
 function changevideo(_index){
-    player_source.setAttribute('src', "/video/"+videourls[_index]+".mp4");
+    player_source.setAttribute('src', "video/"+videourls[_index]+".mp4");
     main_title.innerHTML=titlevideos[_index];
     main_des.innerHTML=desvideos[_index];
     player.load();
