@@ -4,7 +4,7 @@ window.onload=function(){
     let lastname = localStorage.getItem("darktheme");
 
 
-    if(x.includes("darktheme=true" || lastname=="true")){
+    if(lastname=="true"){
         let dark = document.getElementById("darktheme");
         dark.checked =true;
         filterOn();
