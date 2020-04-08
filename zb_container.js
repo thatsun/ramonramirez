@@ -61,7 +61,7 @@ window.onload=function(){
 let zbcontainer=document.getElementById('zbcontainer');
 for(let j=0;j<imagescontents.length;j++){
     
-    _newcard=new_zb("/zb/zb"+j.toString()+".png",imagescontents[j],colors[currentcolor],textos[j],"/zb/logos/"+zb_logos[j]+".svg" ,side_k);        
+    _newcard=new_zb("zb/zb"+j.toString()+".png",imagescontents[j],colors[currentcolor],textos[j],"zb/logos/"+zb_logos[j]+".svg" ,side_k);        
     zbcontainer.appendChild(_newcard);
     
     currentcolor++;
