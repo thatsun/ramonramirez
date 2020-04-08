@@ -1,0 +1,80 @@
+.videoitem{
+    width: 14rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;    
+    transform: translate(0,0);
+    transition: 0.5s;
+   
+}
+.videoitem:hover{
+    background-color: rgb(201, 26, 26);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+    
+}
+.videoicon{
+    width: 12rem;
+    height: 7rem;
+    padding-left : 10px; 
+
+}
+.videogallery{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,  minmax(14rem, 1fr));
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+.videocontainer{
+    overflow: hidden;
+}
+.videoitem > h3{
+    font-size: 0.7em;
+    color: azure;
+    display: block;
+    padding-left : 10px;
+    
+
+}
+.videoitem > p{
+    font-size: 0.8em;
+    color: rgb(211, 211, 211);
+    display: block;
+    padding-left : 10px;
+    width: 11.9rem;
+
+}
+.videoheader{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulocontainer > h2{
+    font-size: 1.4em;
+    display: block;
+    padding-left: 10px;
+
+}
+.titulocontainer > h3{
+    font-size: 1em;
+    display: block;
+    padding-left: 10px;
+
+}
+
+.titulocontainer{
+    text-align: left;
+    width: 720px;
+    
+   
+}

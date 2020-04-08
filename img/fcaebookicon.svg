@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg45"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100mm"
+   width="100mm">
+  <defs
+     id="defs39" />
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-197)"
+     id="layer1">
+    <rect
+       ry="11.49259"
+       y="209.36249"
+       x="9.1140232"
+       height="78.577248"
+       width="84.189903"
+       id="rect47"
+       style="fill:#b7c4c8;stroke:none;stroke-width:0.26458332" />
+    <rect
+       ry="11.49259"
+       y="206.93016"
+       x="7.0826402"
+       height="78.577248"
+       width="84.189903"
+       id="rect47-1"
+       style="fill:#2a7fff;stroke:none;stroke-width:0.26458332" />
+    <rect
+       ry="1.0570415"
+       y="233.81343"
+       x="31.785797"
+       height="52.247795"
+       width="18.212881"
+       id="rect53"
+       style="fill:#ffffff;stroke:none;stroke-width:0.25484389" />
+    <rect
+       ry="0.27893171"
+       y="245.3891"
+       x="20.637823"
+       height="13.787127"
+       width="40.383114"
+       id="rect53-1"
+       style="fill:#ffffff;stroke:none;stroke-width:0.19493406" />
+    <rect
+       ry="0.32893935"
+       y="213.23326"
+       x="51.12162"
+       height="16.258921"
+       width="18.764755"
+       id="rect53-1-7"
+       style="fill:#ffffff;stroke:none;stroke-width:0.14430062" />
+    <path
+       id="path87"
+       d="m 50.022298,236.12854 c -0.283481,-2.07887 1.099322,-6.63635 3.934143,-6.54186 L 51.12162,213.23326 c -15.674777,2.1469 -19.283727,8.45189 -19.430317,22.70628 l 18.236501,0.94495"
+       style="fill:#ffffff;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

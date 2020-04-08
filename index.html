@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ramon Ramirez</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="zb_cards.css">
+    <script src="/src/darktheme.js"></script>
+    <script src="/src/scrollsections.js" ></script>
+    
+</head>
+<body id="viewport_object">    
+    <div class=backgrond> 
+            <img class="bg"  src="zb/zb5.png" alt="back">
+            
+
+    </div>  
+    <div class=backgrond2 style="display:none"> 
+        
+    </div>    
+    <div class="maincontainer">
+        <div class="sliderbox" id="sliderbox" >
+                    <div class="blurslidertextbox">
+                        <h2 class="slidertext">Darktheme</h2>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="darktheme" onclick="filterOn()">
+                        <span class="slider round"></span>
+                    </label>                            
+        </div>            
+        <div class="mainpageheader gray" id="header">
+
+
+            <div class="iconholder">
+                <img class="icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                
+            </div>
+            <div class="title">
+                <h1 class="pading maintitle">Ramon Ramirez</h1>
+                <h2 class="pading mainsubtitle">Videogame developer, Freelance programer, 2D and 3D artist</h1>
+            </div>            
+            
+        </div>
+        <div class="paravelium blue">
+                
+                        <a class="smallicon" onclick="scrolltodesired('desing')" >
+                            <img class="smallicon animated" src="zb/logos/art.svg" alt="icono.png">
+                        </a>
+                        <a class="smallicon" onclick="scrolltodesired('videogames')">
+                            <img class="smallicon animated" src="zb/logos/games.svg" alt="icono.png">
+                        </a>
+                        <a class="smallicon" onclick="scrolltodesired('webdemos')">
+                            <img class="smallicon animated" src="zb/logos/projectsicon.svg" alt="icono.png">
+                        </a>
+                        <a class="smallicon" onclick="scrolltodesired('social')">
+                            <img class="smallicon animated" src="zb/logos/bioicon1.svg" alt="icono.png">
+                        </a>
+                             
+
+        </div>
+        <div class="zbcontainer" id="desing">
+                <div class="zbcard" >
+                        
+                        <div class="midle_img">
+                            <img class="zb_image" src="zb/zb1.png"></img>
+            
+                        </div>
+                        <div class="midle black">
+                                <img class="zb_logo" src="zb/logos/fairy.svg" alt="">
+                                <h2>Digital sculpting and 3D Artist</h2>
+                                <a class="mybuton white" href="sculpture.html">More</a>
+                        </div>
+                </div>
+                <div class="zbcard" >
+                        
+                        
+                        <div class="midle blue">
+                                <img class="zb_logo" src="zb/logos/knifelady.svg" alt="">
+                                <h2>Conceptual Desing & ilustration</h2>
+                                <a class="mybuton white" href="drawworkshop.html">More</a>
+                        </div>
+                        <div class="midle_img">
+                                <img class="zb_image" src="dw/dwimagetest.jpg"></img>
+                
+                        </div>
+                </div>
+                <div class="zbcard" id="videogames" >
+                        
+                        <div class="midle_img">
+                            <img class="zb_image" src="img/games1.jpg"></img>
+            
+                        </div>
+                        <div class="midle black">
+                                <img class="zb_logo" src="zb/logos/golem.svg" alt="">
+                                <h2>Videogame Developer</h2>
+                                <a class="mybuton white" href="videogames.html">More</a>
+                        </div>
+                </div> 
+                <div class="zbcard" >
+                        
+                        
+                        <div class="midle blue">
+                                <img class="zb_logo" src="zb/logos/hastelady.svg" alt="">
+                                <h2>Technical artist</h2>
+                                <a class="mybuton white" href="technicalartist.html">More</a>
+                        </div>
+                        <div class="midle_img">
+                                <img class="zb_image" src="img/techartist.jpg"></img>
+                
+                        </div>
+                    </div>
+                <a class="zbcard">
+                    <div class="midle_img">
+                            <img class="zb_image" src="img/webfile.png"></img>
+            
+                    </div>
+                    <div class="midle black">
+                        <img class="zb_logo" src="zb/logos/hada.svg" alt="">
+                        <h2>Front end & Backend Web development</h2>
+                    </div>
+                </a>  
+                <a class="zbcard" >
+                    <div class="midle blue">
+                        <img class="zb_logo" src="zb/logos/twinfairies.svg" alt="">
+                        <h2>Desktop & movile Apps</h2>
+                    </div>
+                    <div class="midle_img">
+                        <img class="zb_image" src="img/desktopapps.png"></img>
+            
+                    </div>
+                        
+                </a>
+                
+        </div>
+        <div class="cardcontainer black">
+                <a class="card" >
+                    <div class="card_title white">
+                        <img class="card_icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                        <h3 class="card_title_text">2D videogames</h3>
+                    </div>
+                    <div class="cardimage_holder">
+                        <img class="cardimage" src="img/carddraw.jpg" alt="cardimage">
+    
+                    </div>
+                    <div class="card_content">
+                        <p>Pc 2D videogame proyects</p>
+                    </div>
+                </a>
+                <a class="card" >
+                    <div class="card_title white">
+                        <img class="card_icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                        <h3 class="card_title_text">3D videogames</h3>
+                    </div>
+                    <div class="cardimage_holder">
+                        <img class="cardimage" src="img/cardgames.png" alt="cardimage">
+        
+                    </div>
+                    <div class="card_content">
+                        <p>Pc 3D videogame proyects</p>
+                    </div>
+                </a>  
+                <a class="card" >
+                    <div class="card_title white">
+                        <img class="card_icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                        <h3 class="card_title_text">Conceptual</h3>
+                    </div>
+                    <div class="cardimage_holder">
+                        <img class="cardimage" src="dw/d27.jpg" alt="cardimage">
+            
+                    </div>
+                    <div class="card_content">
+                        <p>Conceptual desing solutions</p>
+                    </div>
+                </a>
+                <a class="card" >
+                    <div class="card_title white" >
+                        <img class="card_icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                        <h3 class="card_title_text">Technical</h3>
+                    </div>
+                    <div class="cardimage_holder">
+                        <img class="cardimage" src="img/bot_card.png" alt="cardimage">
+                    </div>
+                    <div class="card_content">
+                        <p>Technical and animation solutions</p>
+                    </div>
+                </a>
+                
+                 
+                                                        
+                                
+        </div>         
+        <div class="container blue" id="webdemos">
+            <div class="projects" >
+                <a class="smallicon" href="https://thatsun.github.io/svgtest/" target="_blank">
+                    <img class="smallicon animated" src="img/svgdemo.svg" alt="icono.png">
+                </a>
+                <a class="smallicon" href="https://myapirestdemo.herokuapp.com/" target="_blank">
+                    <img class="smallicon animated" src="img/apirestdemo.svg" alt="icono.png">
+                </a>
+                <a class="smallicon">
+                    <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                </a>
+                <a class="smallicon">
+                    <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                </a>
+            </div>               
+                
+        </div>
+        <div class="container black" id="miscelaneous" style="display: none">
+                <div class="projects" >
+                    <a class="smallicon">
+                        <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                    </a>
+                    <a class="smallicon">
+                        <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                    </a>
+                    <a class="smallicon">
+                        <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                    </a>
+                    <a class="smallicon">
+                        <img class="smallicon animated" src="img/ob2_white1.png" alt="icono.png">
+                    </a>
+                </div>               
+                    
+        </div>
+        <div class="container" id="social" >
+            <div class="projects">
+                <a class="smallicon" href="https://www.artstation.com/ramonramirez" target="_blank" >
+                    <img class="smallicon animated" src="img/artsattion1.svg" alt="icono.png">
+                </a>
+                <a class="smallicon" href="https://github.com/thatsun" target="_blank">
+                    <img class="smallicon animated" src="img/git_icon.svg" alt="icono.png">
+                </a>
+                <a class="smallicon" href="https://www.linkedin.com/in/ramon-ramirez-82a040b2/" target="_blank">
+                    <img class="smallicon animated" src="img/linkedin_icon.svg" alt="icono.png">
+                </a>
+                <a class="smallicon" href="https://www.facebook.com/luxzord122" target="_blank">
+                    <img class="smallicon animated" src="img/facebook_insk.svg" alt="icono.png">
+                </a>
+            </div>               
+                    
+        </div>        
+        <div class="container blue" id="about" style="display: none">
+
+            <div class="projects">
+                <a class="smallicon" href="/pdf/cv2020ramonramirez.pdf" target="_blank">
+                    <img class="smallicon animated" src="img/cvcoder_icon.svg" alt="cv.svg">
+                </a>
+                <a class="smallicon" href="/pdf/cv2020ramonramirezartes.pdf" target="_blank">
+                    <img class="smallicon animated" src="img/cvartist_icon.svg" alt="cv.svg">
+                </a>
+                <a class="smallicon" href="/gameplay.html" target="_blank">
+                    <img class="smallicon animated" src="img/videoreel_icon.svg" alt="icono.png">
+                </a>               
+            </div>
+            
+            
+        </div>  
+        
+                                             
+                    
+        
+        <div class="foooter" id="footer">
+            <p>Website, icons and graphics By Ramon Ramirez</p>
+            
+
+        </div>
+    
+
+    </div>
+    
+
+    
+    
+</body>
+</html>

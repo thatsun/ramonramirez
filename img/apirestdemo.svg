@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg45"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100mm"
+   width="100mm">
+  <defs
+     id="defs39" />
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-197)"
+     id="layer1">
+    <rect
+       ry="11.49259"
+       y="209.36249"
+       x="9.1140232"
+       height="78.577248"
+       width="84.189903"
+       id="rect47"
+       style="fill:#999999;stroke:none;stroke-width:0.26458332" />
+    <rect
+       ry="11.49259"
+       y="207.77501"
+       x="7.5265222"
+       height="78.577248"
+       width="84.189903"
+       id="rect47-8"
+       style="fill:#ffffff;stroke:none;stroke-width:0.26458332" />
+    <text
+       transform="scale(1.0226219,0.97787852)"
+       id="text17-3"
+       y="274.40067"
+       x="23.354143"
+       style="font-style:normal;font-weight:normal;font-size:70.30419922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1.75760496;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';fill:#aa0000;stroke-width:1.75760496;"
+         y="274.40067"
+         x="23.354143"
+         id="tspan15-1">A</tspan></text>
+    <rect
+       ry="0.13363336"
+       y="213.84525"
+       x="62.933037"
+       height="20.221727"
+       width="35.529762"
+       id="rect169"
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.25462049" />
+    <rect
+       ry="0.13363336"
+       y="212.61681"
+       x="59.814735"
+       height="20.221727"
+       width="37.041664"
+       id="rect169-3"
+       style="fill:#000000;stroke:none;stroke-width:0.25998151" />
+    <text
+       transform="scale(1.024554,0.97603447)"
+       id="text17"
+       y="232.62196"
+       x="63.331142"
+       style="font-style:normal;font-weight:normal;font-size:16.4318428px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.41079602;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';fill:#ffffff;stroke-width:0.41079602;"
+         y="232.62196"
+         x="63.331142"
+         id="tspan15">Api</tspan></text>
+    <text
+       transform="scale(1.0202877,0.98011572)"
+       id="text17-6"
+       y="286.07874"
+       x="18.630703"
+       style="font-style:normal;font-weight:normal;font-size:13.26506042px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.33162647;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Aharoni;-inkscape-font-specification:'Aharoni Bold';fill:#1a1a1a;stroke-width:0.33162647;"
+         y="286.07874"
+         x="18.630703"
+         id="tspan15-2">RestDemo</tspan></text>
+  </g>
+</svg>
