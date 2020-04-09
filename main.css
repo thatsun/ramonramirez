@@ -101,6 +101,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.cliped{
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+
+}
 .myheader,.foooter, .container,.projects{
     display: flex;
     flex-direction: row;
@@ -225,8 +229,8 @@ body{
     color: white;
 }
 .gray{
-    background-color: rgb(255, 255, 255);
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: rgb(202, 202, 202);
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
 }
 .grey{
     background-color: rgb(24, 24, 24);
@@ -256,15 +260,17 @@ body{
     font-weight: bold;
 }
 .title{
-    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
     height: auto;
     max-height: 20vh;
     min-height: 150px;
     
-    justify-content: left;
+    justify-content: center;
     align-content: right;
-    text-align: left;
-    display: block;
+    text-align: center;
+   
 }
 .pading{
     padding-left: 10px;
@@ -329,6 +335,7 @@ a{
 }
 .mainsubtitle{
     font-size: 1em;
+    
 
 }
 .rounded{
@@ -406,6 +413,13 @@ a{
         
         
     
+    }
+    .gray{
+        clip-path: inset(0 0 0 0);
+    }
+    .cliped{
+        clip-path: inset(0 0 0 0);
+
     }
 }
 
@@ -486,6 +500,10 @@ a{
     }
     .gray{
         clip-path: inset(0 0 0 0);
+    }
+    .cliped{
+        clip-path: inset(0 0 0 0);
+
     }
 
 }
@@ -578,6 +596,10 @@ a{
         height: 100%;
         position: absolute;
         left: -50%;
+    }
+    .cliped{
+        clip-path: inset(0 0 0 0);
+
     }
     
 }
