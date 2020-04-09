@@ -1,13 +1,27 @@
-
+var dark ;
+var header;
+var footer;
+var sliderbox;
+var _filter="";
 window.onload=function(){
+    dark = document.getElementById("darktheme");
+    header = document.getElementById("header");
+    footer = document.getElementById("footer");
+    sliderbox = document.getElementById("sliderbox");
    
     let lastname = localStorage.getItem("darktheme");
 
 
     if(lastname=="true"){
-        let dark = document.getElementById("darktheme");
+       
         dark.checked =true;
-        filterOn();
+        _filter="invert(100%)";
+        
+        localStorage.removeItem('darktheme');
+        localStorage.setItem('darktheme','true');
+        header.style.filter = _filter;
+        footer.style.filter = _filter;
+        sliderbox.style.filter = _filter;
         
 
 
@@ -24,19 +38,14 @@ window.onload=function(){
     
 
 }
-function filterOn(){
-    
-    var dark = document.getElementById("darktheme");
-    var header = document.getElementById("header");
-    var footer = document.getElementById("footer");
-    var sliderbox = document.getElementById("sliderbox");
+function filterOn(){  
     
 
     // If the checkbox is checked, display the output text
 
-    var _filter="";
-
     
+
+    _filter="";
     
 
     
