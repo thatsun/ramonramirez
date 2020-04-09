@@ -18,6 +18,24 @@ body{
    
 
 }
+.volando{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+   
+    
+    
+}
+.clip_a{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    left: 0;
+
+}
+.clip_b{
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    left: 50%;
+
+}
 .modalbutton{
     position: fixed;
     right: 10px;
@@ -158,6 +176,7 @@ body{
     flex-wrap: wrap;
 }
 .basicsection{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-content: center;
