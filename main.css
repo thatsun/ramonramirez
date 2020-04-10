@@ -362,6 +362,17 @@ a{
     
 }
 @media only screen and (max-width: 1000px) {
+    
+    .clip_a{
+        clip-path: polygon(0 0, 0 100%,50% 100%);
+        left: 0;
+
+    }
+    .clip_b{
+        clip-path: polygon(50% 0, 100% 100%, 100% 0);
+        left: 50%;
+
+    }
     .maintitle{
         font-size: 1.8em;
         line-height: 1.5em;
@@ -538,13 +549,17 @@ a{
         font-size: 0.9em;
         padding: 0;
         margin: 0;
+        width: 60vw;
+        
 
     }
     .title{
         width: 80vw;
         height: 15vh;        
-        text-align: center;        
-        display: block;
+        text-align: center;  
+        align-items: center;      
+        display: flex;
+        justify-content: center;
         
         
          
@@ -618,6 +633,10 @@ a{
     }
     .cliped{
         clip-path: inset(0 0 0 0);
+
+    }
+    .basicsection>h2{
+        width: 60vw;
 
     }
     
