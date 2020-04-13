@@ -18,7 +18,8 @@ var videourls=[
     "video_11",
     "video_12",
     "video_13",
-    "video_14"
+    "video_14",
+    "video_15"
 ];
 var tumbsurls=[
     "tumb_0",
@@ -35,7 +36,8 @@ var tumbsurls=[
     "tumb_11",
     "tumb_12",
     "tumb_13",
-    "tumb_14"
+    "tumb_14",
+    "tumb_15"
 ];
 var titlevideos=[
     "OB2 3D gameplay",
@@ -52,7 +54,8 @@ var titlevideos=[
     "OB2 Sand worm Rig",
     "Shot to trunk prototype",
     "Witch Glaive prototype",
-    "OB2 motorcicle cinematic gameplay"
+    "OB2 motorcicle cinematic gameplay",
+    "Race car template"
 ];
 var desvideos=[
     "Hack and slash, multiple weapons & other features",
@@ -69,7 +72,8 @@ var desvideos=[
     "Featuring Sand worm model, animation and rig solutions",
     "Prototype shot to trunk featuring IA navigation and FPS shoting solutions",
     "prototype of multiplayer hack and slash solutions",
-    "featuring cinematic motorcicle realtime combat mechanic"
+    "featuring cinematic motorcicle realtime combat mechanic",
+    "featuring a car race template"
 ];
 var _videos=[];
 
