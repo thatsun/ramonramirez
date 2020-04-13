@@ -21,10 +21,7 @@ body{
 .volando{
     position: absolute;
     height: 100%;
-    width: 50%;
-   
-    
-    
+    width: 50%;    
 }
 .clip_a{
     clip-path: polygon(0 0, 0% 100%, 100% 100%);
@@ -191,7 +188,7 @@ body{
     flex-wrap: wrap;
 }
 .paravelium{
-    right:-50%;
+    right:-75%;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -200,7 +197,7 @@ body{
     text-align: center;  
     align-items: center;
     height: 100%;
-    width: 50%;
+    width: 75%;
     margin: 0;
     padding: 0;
     overflow: hidden;
