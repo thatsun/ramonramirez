@@ -13,6 +13,7 @@
     <script src="videoplayer.js" type="text/javascript"></script>
     <title>Technical</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <script src="scrollsections.js" type="text/javascript"></script>
 </head>
 <body id="viewport_object">
     <div class="black"> 
@@ -20,13 +21,22 @@
                 
     
     </div>
-    <div class="maincontainer">  
+    <div class="maincontainer">
+        <a class="modalbutton" onclick="openmodal()">
+            <img class="modalicon" src="img/menumodal.svg"alt="">
+                
+        </a> 
+        <div class="paravelium black" id="modal">
+            <a class="modalitem" href="index.html" >
+                <h4>Home</h4>
+            </a>  
+        </div>      
         <div class="myheader" id="header">    
             <a class="iconholder" href="index.html">
-                <img class="icon" src="mainlogos/rouge2.svg" alt="icono.png">
+                <img class="icon" src="mainlogos/rouge2_blue.svg" alt="icono.png">
                 
             </a>
-            <div class="title">
+            <div class="titleh">
                 <h1 class="pading maintitle">Ramon Ramirez</h1>
                 <h2 class="pading mainsubtitle">Videogame developer, Freelance programer, 2D and 3D artist</h1>
             </div>                

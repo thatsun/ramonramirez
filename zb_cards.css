@@ -17,6 +17,10 @@
     
 
 }
+.midle>p{
+    width: 90%;
+    line-height: 1.5em;
+}
 .midle{
     display: flex;
     flex-direction: column;
@@ -56,11 +60,13 @@
     cursor: pointer;
     font-weight: bold;
     transition: 0.25s;
+    margin-bottom: 20px;
 
 }
 .mybuton:hover{
     transform: scale(1.1);
     transition: 0.25s;
+    
 
 
 }
