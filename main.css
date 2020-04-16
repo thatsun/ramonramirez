@@ -120,6 +120,10 @@ body{
     clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
 
 }
+.cliped_invert{
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+
+}
 .myheader,.foooter, .container,.projects{
     display: flex;
     flex-direction: row;
@@ -244,9 +248,22 @@ body{
     background-color: rgb(19, 147, 197);
     color: white;
 }
+.orange_s{
+    background-color: rgb(238, 123, 16);
+    color: white;
+}
 .gray{
     background-color: rgb(202, 202, 202);
     clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+.gray_s{
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+}
+.green{
+    background-color: rgb(154, 194, 44);
+    color: rgb(255, 255, 255);
+
 }
 .grey{
     background-color: rgb(24, 24, 24);
@@ -258,6 +275,14 @@ body{
 }
 .black{
     background-color: rgb(32, 32, 32);
+    color: white;
+}
+.blackalpha{
+    background-color: rgba(253, 253, 253, 0.795);
+    
+}
+.pink{
+    background-color: rgb(224, 9, 74);
     color: white;
 }
 .blue{
@@ -456,7 +481,7 @@ a{
     .gray{
         clip-path: inset(0 0 0 0);
     }
-    .cliped{
+    .cliped, .cliped_invert{
         clip-path: inset(0 0 0 0);
 
     }
@@ -540,7 +565,7 @@ a{
     .gray{
         clip-path: inset(0 0 0 0);
     }
-    .cliped{
+    .cliped,.cliped_invert{
         clip-path: inset(0 0 0 0);
 
     }
@@ -640,7 +665,7 @@ a{
         position: absolute;
         left: -50%;
     }
-    .cliped{
+    .cliped,.cliped_invert{
         clip-path: inset(0 0 0 0);
 
     }
