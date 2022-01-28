@@ -19,8 +19,7 @@ var videourls=[
     "video_012",
     "video_013",
     "video_014",
-    "video_015",
-    "video_016"
+    "video_015",    
 ];
 var tumbsurls=[
     "thumb_video00",
@@ -38,8 +37,7 @@ var tumbsurls=[
     "thumb_video12",
     "thumb_video13",
     "thumb_video14",
-    "thumb_video15",
-    "thumb_video16"
+    "thumb_video15"
 ];
 var titlevideos=[
     "OB2 3D gameplay",
@@ -57,7 +55,6 @@ var titlevideos=[
     "Sand worm preview",
     "Spectre preview",
     "Zion clip",
-    "Undregroud enviroment test",
     "Angelic Layers Clip"
 ];
 var desvideos=[
@@ -76,7 +73,6 @@ var desvideos=[
     "Sand worm preview and desert enviroment preview",
     "Spectre Boss batle preview",
     "Zion clip animation demo",
-    "Undregroud navigation enviroment test",
     "Angelic layers video preview"
 ];
 var _videos=[];
