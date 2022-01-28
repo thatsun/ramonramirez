@@ -4,76 +4,80 @@ var video_gallery;
 var main_title;
 var main_des;
 var videourls=[
-    "video_0",
-    "video_1",
-    "video_2",
-    "video_3",
-    "video_4",
-    "video_5",
-    "video_6",
-    "video_7",
-    "video_8",
-    "video_9",
-    "video_10",
-    "video_11",
-    "video_12",
-    "video_13",
-    "video_14",
-    "video_15"
+    "video_00",
+    "video_01",
+    "video_02",
+    "video_03",
+    "video_04",
+    "video_05",
+    "video_06",
+    "video_07",
+    "video_08",
+    "video_09",
+    "video_010",
+    "video_011",
+    "video_012",
+    "video_013",
+    "video_014",
+    "video_015",
+    "video_016"
 ];
 var tumbsurls=[
-    "tumb_0",
-    "tumb_1",
-    "tumb_2",
-    "tumb_3",
-    "tumb_4",
-    "tumb_5",
-    "tumb_6",
-    "tumb_7",
-    "tumb_8",
-    "tumb_9",
-    "tumb_10",
-    "tumb_11",
-    "tumb_12",
-    "tumb_13",
-    "tumb_14",
-    "tumb_15"
+    "thumb_video00",
+    "thumb_video01",
+    "thumb_video02",
+    "thumb_video03",
+    "thumb_video04",
+    "thumb_video05",
+    "thumb_video06",
+    "thumb_video07",
+    "thumb_video08",
+    "thumb_video09",
+    "thumb_video10",
+    "thumb_video11",
+    "thumb_video12",
+    "thumb_video13",
+    "thumb_video14",
+    "thumb_video15",
+    "thumb_video16"
 ];
 var titlevideos=[
     "OB2 3D gameplay",
-    "Angelic Layers  2D gameplay",
-    "Mantis mech Animation & Rig",
+    "Zion demo Boss test",
+    "Hack and slash demo",
+    "Abandoned district",
+    "Orbital Slayer 2 boss Trailer",
     "Robot mech Animation & Rig",
-    "OB2 Boss Trailer",
-    "Angelic layers teaser clip",
-    "Engel videogame animation & rig",
-    "Hover board prototype",
-    "SCI-FI Robot mecha rig",
-    "Hover Board videogame",
-    "Wings Rig & animation",
-    "OB2 Sand worm Rig",
-    "Shot to trunk prototype",
-    "Witch Glaive prototype",
-    "OB2 motorcicle cinematic gameplay",
-    "Race car template"
+    "Mantis mech Animation & Rig",
+    "Azura vs Ghosts demo",
+    "Cracken preview",
+    "Acueducts preview",
+    "OB2 cronoz boss preview",
+    "Orbital slayer 2 clip",
+    "Sand worm preview",
+    "Spectre preview",
+    "Zion clip",
+    "Undregroud enviroment test",
+    "Angelic Layers Clip"
 ];
 var desvideos=[
-    "Hack and slash, multiple weapons & other features",
-    "2D videogame gameplay, navigation, narrative features",
-    "No bipedal riging solutions, videogame compatible",
-    "Rig and animation features for mech robots",
-    "SCI-FI boss exhibition featuring multiple behaviours",
-    "Teaser clip video featuring riging, animation & VFX solutions",
-    "Full move set for Engel, featuring single rig for videogames",
-    "Hover board prototipe demo and board character custom rig",
-    "Robotic model featuring rig for mech from OB2",
-    "Hover Borad template featuring various racing game solutions",
-    "Wings model, rig & animation for videogames",
-    "Featuring Sand worm model, animation and rig solutions",
-    "Prototype shot to trunk featuring IA navigation and FPS shoting solutions",
-    "prototype of multiplayer hack and slash solutions",
-    "featuring cinematic motorcicle realtime combat mechanic",
-    "featuring a car race template"
+    "OB2 3D gameplay misc features",
+    "Zion demo Boss test demo",
+    "Hack and slash demo & other features",
+    "Abandoned district enviroment test",
+    "Orbital Slayer 2 boss Trailer",
+    "Robot mech Animation & Rig boss preview",
+    "Mantis mech Animation & Rig boss preview",
+    "Azura vs Ghosts demo gameplay",
+    "Cracken Boss Setup preview ",
+    "Acueducts enviroment test preview",
+    "OB2 cronoz boss preview setup",
+    "Orbital slayer 2 clip featuring gameplay and enviroments",
+    "Sand worm preview and desert enviroment preview",
+    "Spectre Boss batle preview",
+    "Zion clip animation demo",
+    "Undregroud navigation enviroment test",
+    "Angelic layers video preview"
 ];
 var _videos=[];
 
@@ -90,7 +94,7 @@ window.onload= function(){
     main_title.innerHTML=titlevideos[0];
     main_des.innerHTML=desvideos[0];
 
-    player_source.setAttribute('src', "video/"+videourls[0]+".mp4");
+    player_source.setAttribute('src', "video/base/"+videourls[0]+".mp4");
 
     player.load();
 
@@ -126,7 +130,7 @@ function createvideo(title,description,tumburl){
 
     let _desvideo=document.createElement('p');
 
-    _imagetumb.src="img/videotumb/"+tumburl+".png";
+    _imagetumb.src="img/videotumb/"+tumburl+".jpg";
 
 
     _titlevideo.innerHTML=title;
@@ -144,7 +148,7 @@ function createvideo(title,description,tumburl){
 
 }
 function changevideo(_index){
-    player_source.setAttribute('src', "video/"+videourls[_index]+".mp4");
+    player_source.setAttribute('src', "video/base/"+videourls[_index]+".mp4");
     main_title.innerHTML=titlevideos[_index];
     main_des.innerHTML=desvideos[_index];
     player.load();
